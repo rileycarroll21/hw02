@@ -1,0 +1,58 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8                                                |Circuit 2: sky130_fd_pr__pfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_L7MCXF in circuit amplifier (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_CQ5Q4H in circuit amplifier (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_P64V6L in circuit amplifier (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_QREW3P in circuit amplifier (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FBJWLQ in circuit amplifier (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_8C4LHH in circuit amplifier (1)(1 instance)
+
+Class amplifier (1):  Merged 15 parallel devices.
+Subcircuit summary:
+Circuit 1: amplifier                                                              |Circuit 2: amplifier                                                              
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                                                       |sky130_fd_pr__nfet_01v8 (11->5)                                                   
+sky130_fd_pr__pfet_01v8 (3)                                                       |sky130_fd_pr__pfet_01v8 (12->3)                                                   
+Number of devices: 8                                                              |Number of devices: 8                                                              
+Number of nets: 8                                                                 |Number of nets: 8                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: amplifier                                                              |Circuit 2: amplifier                                                              
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+amp_out                                                                           |amp_out                                                                           
+in_n                                                                              |in_n                                                                              
+in_p                                                                              |in_p                                                                              
+Vss                                                                               |Vss                                                                               
+Vdd                                                                               |Vdd                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes amplifier and amplifier are equivalent.
+
+Final result: Circuits match uniquely.
+.
